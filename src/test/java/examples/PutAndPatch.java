@@ -46,7 +46,7 @@ public class PutAndPatch {
                 then().statusCode(200).log().all();
     }
 
-    @Test(enabled = false)
+    @Test
     public void patch() {
         JSONObject request_jsn = new JSONObject();
         request_jsn.put("name", "update name ");

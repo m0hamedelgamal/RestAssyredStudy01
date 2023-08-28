@@ -11,8 +11,9 @@ import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.Matchers.hasSize;
 import static org.junit.Assert.assertThat;
 
-@Test
 public class getMethodTest {
+
+    @Test
     public void getrequest() {
         baseURI = "https://reqres.in/api";
         Response response =
